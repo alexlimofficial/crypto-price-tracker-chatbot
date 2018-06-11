@@ -24,7 +24,7 @@ $ python crypto-bot.py
 ### ngrok 
 
 A key requiremenet for a bot application is that it should be reachable via a publicly accessible internet address/port. 
-The open source tool and service called **ngrok** was used to create a virtual tunnel between the PC rnuning the application 
+The open source tool and service called **ngrok** was used to create a virtual tunnel between the PC running the application 
 and the internet. This tunnel allows incoming HTTP requests sent to a special URL at the ngrok cloud service to be relayed 
 through to the listening bot application. 
 
@@ -35,8 +35,7 @@ For Windows: ngrok http 8080
 
 ## Cisco Webex Teams 
 
-Because this chatbot is designed specifically for the Cisco Webex Teams application, users must download Cisco Webex Teams in order to use it.
-Once downloaded, create a new space and add the chatbot to the space. 
+Because this chatbot is designed specifically for the Cisco Webex Teams application, users must download Cisco Webex Teams in order to use it. Once downloaded, create a new space and add the chatbot to the space. 
 
 ### Interacting with the chatbot
 
