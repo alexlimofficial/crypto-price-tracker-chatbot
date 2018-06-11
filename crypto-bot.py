@@ -32,6 +32,7 @@ import os
 try:
     from flask import Flask
     from flask import request
+    from flask import render_template
 except ImportError as e:
     print(e)
     print("Looks like 'flask' library is missing.\n"
@@ -121,10 +122,7 @@ def spark_webhook():
     ### GET Request ###
     elif request.method == 'GET':
         """ Static HTML to display on http://localhost:8080 """
-        message = "<center><img src=\"https://cdn-images-1.medium.com/max/800/1*wrYQF1qZ3GePyrVn-Sp0UQ.png\" alt=\"Spark Bot\" style=\"width:256; height:256;\"</center>" \
-                  "<center><h2><b>Congratulations! Your <i style=\"color:#ff8000;\">%s</i> bot is up and running.</b></h2></center>" \
-                  "<center><b><i>Don't forget to create Webhooks to start receiving events from Cisco Webex Teams!</i></b></center>" % bot_name
-        return message
+        return render_template('index.html', bot_name=bot_name)
 
 def main():
     global bot_email, bot_name

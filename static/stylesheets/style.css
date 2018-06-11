@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+.fa-linkedin {
+  background: gray;
+  color: black;
+  border-color: black;
+}
+
+.fa-github {
+  background: gray;
+  color: black;
+  border-radius: 50%;
+  border-color: black;
+}
+
+.fa-envelope {
+  background: gray;
+  color: black;
+  border-radius: 50%;
+  border-color: black;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 40%;
+}
