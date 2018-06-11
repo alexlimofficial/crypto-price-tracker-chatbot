@@ -39,7 +39,7 @@ Because this chatbot is designed specifically for the Cisco Webex Teams applicat
 
 ### Interacting with the chatbot
 
-**Commands**
-```Help me```               : Shows all commands that bot is capable of interpreting.
-```Hello```                 : Prompts a greeting from the bot. 
-```Price <crypto symbol>``` : Returns current data on cryptocurrency. 
+**Commands**<br>
+```Help me```               : Shows all commands that bot is capable of interpreting.<br>
+```Hello```                 : Prompts a greeting from the bot.<br>
+```Price <crypto symbol>``` : Returns current data on cryptocurrency.<br> 
