@@ -29,7 +29,7 @@ and the internet. This tunnel allows incoming HTTP requests sent to a special UR
 through to the listening bot application. 
 
 ```
-For Linux/macOS: ./ngrok http 5000
+For Linux/macOS: ./ngrok http 8080
 For Windows: ngrok http 8080
 ```
 
