@@ -45,3 +45,5 @@ Because this chatbot is designed specifically for the Cisco Webex Teams applicat
 ```Price <crypto symbol>``` : Returns current data on cryptocurrency.<br> 
 
 ## Acknowledgement
+1. Cisco Webex Teams
+2. Cisco DevNet
